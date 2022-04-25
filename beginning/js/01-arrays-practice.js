@@ -121,7 +121,7 @@
         // function showEmployee(employees) {
         //     console.log("Employees:\n\n");
         //     employees.forEach((employees) => {
-        //         console.log(employees);
+        //         console.log(employees.toUpperCase());
         //     });
         // }
 
