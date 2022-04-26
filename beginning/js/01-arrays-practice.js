@@ -11,7 +11,7 @@
         // movies[4] = 'Aladdin';
         // console.log(movies[0]);
 
-//STEP 3
+//STEP 3  slice()
         // let movies = new Array(5);
         // movies[0] = 'You`ve Got Mail';
         // movies[1] = 'Notting Hill';
@@ -19,9 +19,11 @@
         // movies[3] ='Legally blonde';
         // movies[4] = 'Aladdin';
         // movies.splice(2, 0, "Lion KIng") ;
+        // //console.log(movies);
         // console.log(movies.length);
 
-//STEP 4
+
+//STEP 4  shift()
 
         // let movies = [];
         // movies[0] = 'You`ve Got Mail';
@@ -29,10 +31,10 @@
         // movies[2] = 'When Harry Met Sally';
         // movies[3] ='Legally blonde';
         // movies[4] = 'Aladdin';
-        // delete movies[0];
+        // movies.shift();
         // console.log(movies);
 
-//STEP 5
+//STEP 5  for/in loop
 
         //  Array.prototype = () => {};
         //  let movies = ['You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws'];
@@ -40,21 +42,21 @@
         //    for(let i in movies) {
         //    console.log(movies[i]);
         // }
-                                //// more traditional way
-                                //// let movies = ['You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws'];
-                            
-                                //// for(let i = 0; i < movies.length; i++) {
-                                ////     console.log(movies[i]);
-                                //// }
+        // // more traditional way
+        // // let movies = ['You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws'];
         
-//STEP 6
+        // // for(let i = 0; i < movies.length; i++) {
+        // //     console.log(movies[i]);
+        // // }
+
+//STEP 6 for/of loop
         //  Array.prototype  = () => {};
         //  let movies = ['You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws'];
        
         //     for(let i of movies) {
         //     console.log(i);
         // }
-//STEP 7
+//STEP 7  sorted array
         // Array.prototype = () => {};
         // let movies = ['You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws'];
         // movies.sort();
@@ -63,13 +65,16 @@
         //    }
           
 //STEP 8
-        // Array.prototype = () => {};
-        //  let fMovies = ['Movies i like:','You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws','',''];
-        //  let leastFavMovies = ['Movies I regret watching:','','Anaconda','The Exorcist','Friday the Thriteen']
-        //  let moviesCombo = fMovies.concat(leastFavMovies);
-        //    for(let i in moviesCombo) {
-        //    console.log(moviesCombo[i]);
-        // }
+        //  let fMovies = ['You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws'];
+        //  let leastFavMovies = ['Anaconda','The Exorcist','Friday the Thriteen']
+        //  console.log("\n\n\Movies I like: \n\n\n");
+        //  fMovies.forEach((movie) => {
+        //    console.log(movie);
+        // });
+        // console.log("\n\n\nMovies I regret watching: \n\n\n");
+        //   leastFavMovies.forEach((movie)=>{
+        //    console.log(movie);
+        //   });
 
 //STEP 9
        
@@ -97,16 +102,14 @@
         // firstMovies = movies.shift()
         // console.log(firstMovies);
        
-//STEP 12  about slice() and concat()
-        //  let fMovies = ['You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws'];
+//STEP 12  using splice
+        // let fMovies = ['You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws'];
         // let leastFavMovies = ['Anaconda','The Exorcist','Friday the Thriteen']
-        
         // let movies = fMovies.concat(leastFavMovies);
-        // movies= movies.slice(7, 10);
-        // console.log(movies);
-        // movies = movies.concat('You`ve Got Mail','Notting Hill','When Harry Met Sally','Legally blonde','Aladdin','King Kong','Jaws' );
+        //         console.log(movies);
+        //         movies.reverse();
+        // movies.splice(0,4);
         
-        // console.log(movies);
 
         
 
@@ -154,6 +157,6 @@
 
 
 //STEP 17
-var items = [ 3, 5, 7, 112,35];
-var max = Math.max.apply(null, items);
-console.log(max);
+// var items = [ 3, 5, 7, 112,35];
+// var max = Math.max.apply(null, items);
+// console.log(max);
